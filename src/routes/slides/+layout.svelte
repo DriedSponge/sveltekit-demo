@@ -1,8 +1,9 @@
 <script>
 	import { page } from "$app/stores";
 	import { goto } from "$app/navigation";
+
 	let min = 1;
-	let max = 2;
+	let max = 9;
 	function handleSlide(e) {
 		if (!e.key) return;
 		let pg = $page.route.id;
@@ -27,4 +28,11 @@
 </script>
 
 <svelte:window on:keydown={handleSlide} />
-<slot />
+<div class="hidden h-screen overflow-hidden p-5 lg:block">
+	<slot />
+</div>
+<div class="lg:hidden">
+	<h1 class="text-center text-3xl font-extrabold">
+		Sorry, this part of the website is not ready for mobile use.
+	</h1>
+</div>

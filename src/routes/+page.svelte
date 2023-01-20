@@ -14,7 +14,8 @@
 				href="/slides/1"
 				target="_blank">here</a
 			> to go to the slides, then use your arrow keys to navigate between slides. At the end of my presentation
-			I'm supposed to reveal the whole thing is a SvelteKit app and it is supposed to be a "big surprise".
+			I'm supposed to reveal that the whole thing is a SvelteKit app and it is supposed to be a "big
+			surprise".
 		</p>
 		<p class="text-center text-xl font-extrabold tracking-wide lg:text-2xl">
 			<a
