@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>SvelteKit Demo</title>
+</svelte:head>
 <div class="flex h-screen flex-col items-center justify-center px-3">
 	<div class="container mx-auto max-w-4xl space-y-5">
 		<h1 class="text-center text-4xl font-bold lg:text-5xl">Welcome to My SvelteKit Demo!</h1>
@@ -8,14 +11,14 @@
 		</p>
 		<p class="text-center text-xl lg:text-2xl">
 			You're probably wonder how this works? It's basically a fake slide show. Click <a
-				href="/slides"
+				href="/slides/1"
 				target="_blank">here</a
 			> to go to the slides, then use your arrow keys to navigate between slides. At the end of my presentation
 			I'm supposed to reveal the whole thing is a SvelteKit app and it is supposed to be a "big surprise".
 		</p>
 		<p class="text-center text-xl font-extrabold tracking-wide lg:text-2xl">
 			<a
-				href="/slides"
+				href="/slides/1"
 				target="_blank">Slides</a
 			>
 			&bull;
