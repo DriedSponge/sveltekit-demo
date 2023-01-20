@@ -1,1 +1,0 @@
-import{S as i,i as o,s as r,q as l,r as c,b as d,B as a,h as u}from"../../../../chunks/index-2b26cad3.js";function f(s){let t;return{c(){t=l("Slide 2")},l(e){t=c(e,"Slide 2")},m(e,n){d(e,t,n)},p:a,i:a,o:a,d(e){e&&u(t)}}}class p extends i{constructor(t){super(),o(this,t,null,f,r,{})}}export{p as default};
