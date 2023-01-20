@@ -10,7 +10,6 @@
 
 		if (e.key === "ArrowRight") {
 			let next = currPage + 1;
-			console.log(next);
 			if (next <= max) {
 				goto(`/slides/${next}`);
 			} else {
