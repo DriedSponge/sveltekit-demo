@@ -28,7 +28,7 @@
 </script>
 
 <svelte:window on:keydown={handleSlide} />
-<div class="hidden h-screen overflow-hidden p-5 lg:block">
+<div class="hidden h-screen p-5 lg:block">
 	<slot />
 </div>
 <div class="lg:hidden">

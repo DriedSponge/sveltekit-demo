@@ -3,11 +3,11 @@
 </svelte:head>
 <div class="flex h-full w-full flex-row justify-center text-center">
 	<div class="space-y-12 xl:space-y-16">
-		<h1 class="text-8xl font-extrabold">Thanks for Listening.</h1>
-		<h2 class="text-6xl font-extrabold">Questions or Suggestions?</h2>
+		<h1 class="text-8xl font-extrabold 2xl:text-9xl">Thanks for Listening.</h1>
+		<h2 class="text-6xl font-extrabold 2xl:text-7xl">Questions or Suggestions?</h2>
 		<hr class="border-2 border-black" />
-		<h2 class="text-6xl font-extrabold">SvelteKit+Tailwind Examples</h2>
-		<ul class="space-y-5 text-2xl lg:text-3xl xl:text-4xl">
+		<h2 class="text-6xl font-extrabold 2xl:text-7xl">SvelteKit+Tailwind Examples</h2>
+		<ul class="space-y-5 text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
 			<li>
 				My Own Website: <a
 					target="_blank"
@@ -20,7 +20,7 @@
 				>
 			</li>
 		</ul>
-		<h2 class="text-4xl font-bold">
+		<h2 class="text-4xl font-bold 2xl:text-5xl">
 			Links to source code are on each site respectively. (I will show some code if there's time) .
 		</h2>
 	</div>
